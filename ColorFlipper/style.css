@@ -1,0 +1,84 @@
+/*Reset CSS*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Body height*/
+
+body {
+    height: 100vh;
+}
+
+/*Header Stylisation*/
+
+a {
+    text-decoration: none;
+}
+
+header>div {
+    display: inline-block;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: #cabac2;
+}
+
+.second {
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#simple-format , #hex-format , #rgba-format{
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+}
+
+#col-flp{
+    color: darkblue;
+}
+
+/*Color and click buttom display*/
+
+.container {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#bg-color {
+    border: solid 2px black;
+    border-radius: 10px;
+    padding: 20px 50px 20px 50px;
+    margin-bottom: 20px;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+}
+
+#click-btn {
+    padding: 10px 20px 10px 20px;
+    background-color:silver;
+    border: none;
+    border-radius: 5px;
+}
+
+#color-format{
+    color: skyblue;
+}
+
+
+
