@@ -7,7 +7,7 @@ const btns = document.querySelectorAll(".btn");
 
 btns.forEach((btn)=>{
     btn.addEventListener("click", (e)=>{
-        console.log(e);
+        
         const styles = e.currentTarget.classList;
 
         if(styles.contains("decrease")){
