@@ -6,4 +6,4 @@ Each directory represents a project.
 
 ### Sources
 
-All these projects are proposed by freeCodeCamp.org.
+All these projects are proposed by freeCodeCamp.org
