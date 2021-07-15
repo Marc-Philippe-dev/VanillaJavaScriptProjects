@@ -1,0 +1,143 @@
+/* Reset CSS */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* body color */
+
+body {
+  background-color: beige;
+}
+
+/* Remove links styles */
+
+li,
+a {
+  list-style: none;
+  text-decoration: none;
+  color: rgb(102, 104, 104);
+}
+/* A lit bit of style */
+
+.nav-container {
+  background-color: white;
+}
+
+a:hover {
+  color: skyblue;
+}
+
+i {
+  color: rgb(54, 184, 235);
+}
+
+i:hover {
+  color: rgb(120, 190, 255);
+}
+
+.toggle-icon {
+  display: none;
+}
+
+/* Nav displaying */
+
+/* Header display for mobile device*/
+
+@media screen and (max-width: 480px) {
+  
+    .toggle-container {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1 1 50%;
+    padding: 16px;
+  }
+
+  .social-media-links-container {
+    display: none;
+  }
+
+  .toggle-icon {
+    display: block;
+    border: none;
+  }
+  
+  .fas{
+      color: black;
+  }
+
+  .fas:hover {
+    transform: rotate(90deg);
+    transition: all 1 linear;
+  }
+
+  .links li {
+    padding-left: 16px;
+    margin-bottom: 16px;
+    text-transform: capitalize;
+  }
+
+  .links{
+       height: 0;  
+      overflow: hidden;
+      transition: all 0.3s linear;
+  }
+
+  .show-links{
+       height: 130px; 
+  }
+
+  .logo {
+    width: 150px;
+  }
+   
+}
+
+@media screen and (min-width: 481px) and (max-width: 799px) {
+  .nav-container {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .social-media-links-container {
+    display: none;
+  }
+
+  .links {
+    width: 50vw;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .logo {
+    width: 150px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+
+  .social-media-links-container,
+  .links {
+    width: 15vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .links {
+    width: 30vw;
+  }
+}
