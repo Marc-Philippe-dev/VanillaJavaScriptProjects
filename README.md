@@ -3,3 +3,7 @@ All these projects are made in Vanilla JavaScript and will allow to master it in
 
 ## Classification
 Each directory represents a project.
+
+### Sources
+
+All these projects are proposed by freeCodeCamp.org.
