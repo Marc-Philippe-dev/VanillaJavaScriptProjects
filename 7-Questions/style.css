@@ -1,0 +1,103 @@
+/* 
+===============
+Google Font
+=============== 
+*/
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(210, 36%, 96%);
+}
+
+.title {
+  margin-top: 15vh;
+  margin-bottom: 4rem;
+}
+
+button {
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  transform: rotate(90deg);
+  transition: all 0.3s linear;
+}
+
+.title h2 {
+  color: #c59d5f;
+  font-family: "Great Vibes", cursive;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 3rem;
+  letter-spacing: 0.25rem;
+}
+
+.center-questions {
+  max-width: 620px;
+  width: 95vw;
+  margin: 0 auto;
+}
+
+.question {
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem 1.5rem 0 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.question-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1rem;
+  font-family: "Open sans", sans-serif;
+  color: hsl(209, 61%, 16%);
+  text-transform: capitalize;
+  letter-spacing: 0.25rem;
+  padding-bottom: 1rem;
+}
+
+.far {
+  font-size: 1.5rem;
+  color: #c59d5f;
+}
+
+.question-text {
+  padding: 16px 0px 24px;
+}
+
+.question-text p {
+  font-size: 0.95rem;
+  font-family: "open sans", sans-serif;
+  letter-spacing: 2px;
+  color: #617d98;
+  line-height: 1.5rem;
+}
+
+.question-text {
+  display: none;
+}
+
+.show-text .question-text {
+  display: block;
+}
+
+.minus-icon {
+  display: none;
+}
+.show-text .minus-icon {
+  display: inline;
+}
+.show-text .plus-icon {
+  display: none;
+}
